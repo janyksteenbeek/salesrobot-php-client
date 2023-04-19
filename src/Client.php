@@ -11,7 +11,7 @@ class Client
 
     public function __construct(string $webhookUrl)
     {
-        $this->curl = curl_init($this->webhookUrl);
+        $this->curl = curl_init($webhookUrl);
     }
 
     public function addProspect(Prospect $campaignInfo): object
