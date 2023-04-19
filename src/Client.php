@@ -14,7 +14,7 @@ class Client
         $this->curl = curl_init($webhookUrl);
     }
 
-    public function addProspect(Prospect $campaignInfo): object
+    public function addProspect(Prospect $campaignInfo): ?object
     {
         $json = json_encode($campaignInfo);
 
