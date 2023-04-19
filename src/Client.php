@@ -2,6 +2,7 @@
 
 namespace Janyksteenbeek\Salesrobot;
 
+use CurlHandle;
 use Janyksteenbeek\Salesrobot\Resources\Prospect;
 
 class Client {
