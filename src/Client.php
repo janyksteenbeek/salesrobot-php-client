@@ -1,5 +1,7 @@
 <?php
 
+namespace Janyksteenbeek\Salesrobot;
+
 use Janyksteenbeek\Salesrobot\Resources\Prospect;
 
 class Client {
